@@ -1,0 +1,105 @@
+{
+  "node": {
+    "003dbb3e4731f6d889557469615937ff5f66ae61a6": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Factions%2Fform.ts%22%2C%5B%7B%22id%22%3A%22003dbb3e4731f6d889557469615937ff5f66ae61a6%22%2C%22exportedName%22%3A%22GetForms%22%7D%2C%7B%22id%22%3A%2200ed53bca955026e4d3d75e2146b1627cea9c1b1ea%22%2C%22exportedName%22%3A%22GetFormStats%22%7D%2C%7B%22id%22%3A%22405b09b5aaa43c7bb08058eaafbd6fdb15bb6a28a0%22%2C%22exportedName%22%3A%22GetFormById%22%7D%2C%7B%22id%22%3A%22405dc1f51b0a3efd93eaa1b18cdeb7cee65e22ec2e%22%2C%22exportedName%22%3A%22CreateForm%22%7D%2C%7B%22id%22%3A%22409d7fb6cd8fee1fd5907b2ee804c8d3445f0fcdc7%22%2C%22exportedName%22%3A%22GetFormContentByUrl%22%7D%2C%7B%22id%22%3A%2240afd36a2cfd265bbdc875cf686feac89c0c5a6ac4%22%2C%22exportedName%22%3A%22PublishForm%22%7D%2C%7B%22id%22%3A%2240b1b664e3d47e3feee32f07de9c8a149d834417f5%22%2C%22exportedName%22%3A%22GetFormWithSubmissions%22%7D%2C%7B%22id%22%3A%226041af0ba6026bb0d2dd4315fa1be14aa1bccdd531%22%2C%22exportedName%22%3A%22SubmitForm%22%7D%2C%7B%22id%22%3A%226048f8724892c0ec3b73f56f743b727705c361301a%22%2C%22exportedName%22%3A%22UpdateFormContent%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "00ed53bca955026e4d3d75e2146b1627cea9c1b1ea": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Factions%2Fform.ts%22%2C%5B%7B%22id%22%3A%22003dbb3e4731f6d889557469615937ff5f66ae61a6%22%2C%22exportedName%22%3A%22GetForms%22%7D%2C%7B%22id%22%3A%2200ed53bca955026e4d3d75e2146b1627cea9c1b1ea%22%2C%22exportedName%22%3A%22GetFormStats%22%7D%2C%7B%22id%22%3A%22405b09b5aaa43c7bb08058eaafbd6fdb15bb6a28a0%22%2C%22exportedName%22%3A%22GetFormById%22%7D%2C%7B%22id%22%3A%22405dc1f51b0a3efd93eaa1b18cdeb7cee65e22ec2e%22%2C%22exportedName%22%3A%22CreateForm%22%7D%2C%7B%22id%22%3A%22409d7fb6cd8fee1fd5907b2ee804c8d3445f0fcdc7%22%2C%22exportedName%22%3A%22GetFormContentByUrl%22%7D%2C%7B%22id%22%3A%2240afd36a2cfd265bbdc875cf686feac89c0c5a6ac4%22%2C%22exportedName%22%3A%22PublishForm%22%7D%2C%7B%22id%22%3A%2240b1b664e3d47e3feee32f07de9c8a149d834417f5%22%2C%22exportedName%22%3A%22GetFormWithSubmissions%22%7D%2C%7B%22id%22%3A%226041af0ba6026bb0d2dd4315fa1be14aa1bccdd531%22%2C%22exportedName%22%3A%22SubmitForm%22%7D%2C%7B%22id%22%3A%226048f8724892c0ec3b73f56f743b727705c361301a%22%2C%22exportedName%22%3A%22UpdateFormContent%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "405b09b5aaa43c7bb08058eaafbd6fdb15bb6a28a0": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Factions%2Fform.ts%22%2C%5B%7B%22id%22%3A%22003dbb3e4731f6d889557469615937ff5f66ae61a6%22%2C%22exportedName%22%3A%22GetForms%22%7D%2C%7B%22id%22%3A%2200ed53bca955026e4d3d75e2146b1627cea9c1b1ea%22%2C%22exportedName%22%3A%22GetFormStats%22%7D%2C%7B%22id%22%3A%22405b09b5aaa43c7bb08058eaafbd6fdb15bb6a28a0%22%2C%22exportedName%22%3A%22GetFormById%22%7D%2C%7B%22id%22%3A%22405dc1f51b0a3efd93eaa1b18cdeb7cee65e22ec2e%22%2C%22exportedName%22%3A%22CreateForm%22%7D%2C%7B%22id%22%3A%22409d7fb6cd8fee1fd5907b2ee804c8d3445f0fcdc7%22%2C%22exportedName%22%3A%22GetFormContentByUrl%22%7D%2C%7B%22id%22%3A%2240afd36a2cfd265bbdc875cf686feac89c0c5a6ac4%22%2C%22exportedName%22%3A%22PublishForm%22%7D%2C%7B%22id%22%3A%2240b1b664e3d47e3feee32f07de9c8a149d834417f5%22%2C%22exportedName%22%3A%22GetFormWithSubmissions%22%7D%2C%7B%22id%22%3A%226041af0ba6026bb0d2dd4315fa1be14aa1bccdd531%22%2C%22exportedName%22%3A%22SubmitForm%22%7D%2C%7B%22id%22%3A%226048f8724892c0ec3b73f56f743b727705c361301a%22%2C%22exportedName%22%3A%22UpdateFormContent%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "405dc1f51b0a3efd93eaa1b18cdeb7cee65e22ec2e": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Factions%2Fform.ts%22%2C%5B%7B%22id%22%3A%22003dbb3e4731f6d889557469615937ff5f66ae61a6%22%2C%22exportedName%22%3A%22GetForms%22%7D%2C%7B%22id%22%3A%2200ed53bca955026e4d3d75e2146b1627cea9c1b1ea%22%2C%22exportedName%22%3A%22GetFormStats%22%7D%2C%7B%22id%22%3A%22405b09b5aaa43c7bb08058eaafbd6fdb15bb6a28a0%22%2C%22exportedName%22%3A%22GetFormById%22%7D%2C%7B%22id%22%3A%22405dc1f51b0a3efd93eaa1b18cdeb7cee65e22ec2e%22%2C%22exportedName%22%3A%22CreateForm%22%7D%2C%7B%22id%22%3A%22409d7fb6cd8fee1fd5907b2ee804c8d3445f0fcdc7%22%2C%22exportedName%22%3A%22GetFormContentByUrl%22%7D%2C%7B%22id%22%3A%2240afd36a2cfd265bbdc875cf686feac89c0c5a6ac4%22%2C%22exportedName%22%3A%22PublishForm%22%7D%2C%7B%22id%22%3A%2240b1b664e3d47e3feee32f07de9c8a149d834417f5%22%2C%22exportedName%22%3A%22GetFormWithSubmissions%22%7D%2C%7B%22id%22%3A%226041af0ba6026bb0d2dd4315fa1be14aa1bccdd531%22%2C%22exportedName%22%3A%22SubmitForm%22%7D%2C%7B%22id%22%3A%226048f8724892c0ec3b73f56f743b727705c361301a%22%2C%22exportedName%22%3A%22UpdateFormContent%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "409d7fb6cd8fee1fd5907b2ee804c8d3445f0fcdc7": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Factions%2Fform.ts%22%2C%5B%7B%22id%22%3A%22003dbb3e4731f6d889557469615937ff5f66ae61a6%22%2C%22exportedName%22%3A%22GetForms%22%7D%2C%7B%22id%22%3A%2200ed53bca955026e4d3d75e2146b1627cea9c1b1ea%22%2C%22exportedName%22%3A%22GetFormStats%22%7D%2C%7B%22id%22%3A%22405b09b5aaa43c7bb08058eaafbd6fdb15bb6a28a0%22%2C%22exportedName%22%3A%22GetFormById%22%7D%2C%7B%22id%22%3A%22405dc1f51b0a3efd93eaa1b18cdeb7cee65e22ec2e%22%2C%22exportedName%22%3A%22CreateForm%22%7D%2C%7B%22id%22%3A%22409d7fb6cd8fee1fd5907b2ee804c8d3445f0fcdc7%22%2C%22exportedName%22%3A%22GetFormContentByUrl%22%7D%2C%7B%22id%22%3A%2240afd36a2cfd265bbdc875cf686feac89c0c5a6ac4%22%2C%22exportedName%22%3A%22PublishForm%22%7D%2C%7B%22id%22%3A%2240b1b664e3d47e3feee32f07de9c8a149d834417f5%22%2C%22exportedName%22%3A%22GetFormWithSubmissions%22%7D%2C%7B%22id%22%3A%226041af0ba6026bb0d2dd4315fa1be14aa1bccdd531%22%2C%22exportedName%22%3A%22SubmitForm%22%7D%2C%7B%22id%22%3A%226048f8724892c0ec3b73f56f743b727705c361301a%22%2C%22exportedName%22%3A%22UpdateFormContent%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "40afd36a2cfd265bbdc875cf686feac89c0c5a6ac4": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Factions%2Fform.ts%22%2C%5B%7B%22id%22%3A%22003dbb3e4731f6d889557469615937ff5f66ae61a6%22%2C%22exportedName%22%3A%22GetForms%22%7D%2C%7B%22id%22%3A%2200ed53bca955026e4d3d75e2146b1627cea9c1b1ea%22%2C%22exportedName%22%3A%22GetFormStats%22%7D%2C%7B%22id%22%3A%22405b09b5aaa43c7bb08058eaafbd6fdb15bb6a28a0%22%2C%22exportedName%22%3A%22GetFormById%22%7D%2C%7B%22id%22%3A%22405dc1f51b0a3efd93eaa1b18cdeb7cee65e22ec2e%22%2C%22exportedName%22%3A%22CreateForm%22%7D%2C%7B%22id%22%3A%22409d7fb6cd8fee1fd5907b2ee804c8d3445f0fcdc7%22%2C%22exportedName%22%3A%22GetFormContentByUrl%22%7D%2C%7B%22id%22%3A%2240afd36a2cfd265bbdc875cf686feac89c0c5a6ac4%22%2C%22exportedName%22%3A%22PublishForm%22%7D%2C%7B%22id%22%3A%2240b1b664e3d47e3feee32f07de9c8a149d834417f5%22%2C%22exportedName%22%3A%22GetFormWithSubmissions%22%7D%2C%7B%22id%22%3A%226041af0ba6026bb0d2dd4315fa1be14aa1bccdd531%22%2C%22exportedName%22%3A%22SubmitForm%22%7D%2C%7B%22id%22%3A%226048f8724892c0ec3b73f56f743b727705c361301a%22%2C%22exportedName%22%3A%22UpdateFormContent%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "40b1b664e3d47e3feee32f07de9c8a149d834417f5": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Factions%2Fform.ts%22%2C%5B%7B%22id%22%3A%22003dbb3e4731f6d889557469615937ff5f66ae61a6%22%2C%22exportedName%22%3A%22GetForms%22%7D%2C%7B%22id%22%3A%2200ed53bca955026e4d3d75e2146b1627cea9c1b1ea%22%2C%22exportedName%22%3A%22GetFormStats%22%7D%2C%7B%22id%22%3A%22405b09b5aaa43c7bb08058eaafbd6fdb15bb6a28a0%22%2C%22exportedName%22%3A%22GetFormById%22%7D%2C%7B%22id%22%3A%22405dc1f51b0a3efd93eaa1b18cdeb7cee65e22ec2e%22%2C%22exportedName%22%3A%22CreateForm%22%7D%2C%7B%22id%22%3A%22409d7fb6cd8fee1fd5907b2ee804c8d3445f0fcdc7%22%2C%22exportedName%22%3A%22GetFormContentByUrl%22%7D%2C%7B%22id%22%3A%2240afd36a2cfd265bbdc875cf686feac89c0c5a6ac4%22%2C%22exportedName%22%3A%22PublishForm%22%7D%2C%7B%22id%22%3A%2240b1b664e3d47e3feee32f07de9c8a149d834417f5%22%2C%22exportedName%22%3A%22GetFormWithSubmissions%22%7D%2C%7B%22id%22%3A%226041af0ba6026bb0d2dd4315fa1be14aa1bccdd531%22%2C%22exportedName%22%3A%22SubmitForm%22%7D%2C%7B%22id%22%3A%226048f8724892c0ec3b73f56f743b727705c361301a%22%2C%22exportedName%22%3A%22UpdateFormContent%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "6041af0ba6026bb0d2dd4315fa1be14aa1bccdd531": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Factions%2Fform.ts%22%2C%5B%7B%22id%22%3A%22003dbb3e4731f6d889557469615937ff5f66ae61a6%22%2C%22exportedName%22%3A%22GetForms%22%7D%2C%7B%22id%22%3A%2200ed53bca955026e4d3d75e2146b1627cea9c1b1ea%22%2C%22exportedName%22%3A%22GetFormStats%22%7D%2C%7B%22id%22%3A%22405b09b5aaa43c7bb08058eaafbd6fdb15bb6a28a0%22%2C%22exportedName%22%3A%22GetFormById%22%7D%2C%7B%22id%22%3A%22405dc1f51b0a3efd93eaa1b18cdeb7cee65e22ec2e%22%2C%22exportedName%22%3A%22CreateForm%22%7D%2C%7B%22id%22%3A%22409d7fb6cd8fee1fd5907b2ee804c8d3445f0fcdc7%22%2C%22exportedName%22%3A%22GetFormContentByUrl%22%7D%2C%7B%22id%22%3A%2240afd36a2cfd265bbdc875cf686feac89c0c5a6ac4%22%2C%22exportedName%22%3A%22PublishForm%22%7D%2C%7B%22id%22%3A%2240b1b664e3d47e3feee32f07de9c8a149d834417f5%22%2C%22exportedName%22%3A%22GetFormWithSubmissions%22%7D%2C%7B%22id%22%3A%226041af0ba6026bb0d2dd4315fa1be14aa1bccdd531%22%2C%22exportedName%22%3A%22SubmitForm%22%7D%2C%7B%22id%22%3A%226048f8724892c0ec3b73f56f743b727705c361301a%22%2C%22exportedName%22%3A%22UpdateFormContent%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "6048f8724892c0ec3b73f56f743b727705c361301a": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Factions%2Fform.ts%22%2C%5B%7B%22id%22%3A%22003dbb3e4731f6d889557469615937ff5f66ae61a6%22%2C%22exportedName%22%3A%22GetForms%22%7D%2C%7B%22id%22%3A%2200ed53bca955026e4d3d75e2146b1627cea9c1b1ea%22%2C%22exportedName%22%3A%22GetFormStats%22%7D%2C%7B%22id%22%3A%22405b09b5aaa43c7bb08058eaafbd6fdb15bb6a28a0%22%2C%22exportedName%22%3A%22GetFormById%22%7D%2C%7B%22id%22%3A%22405dc1f51b0a3efd93eaa1b18cdeb7cee65e22ec2e%22%2C%22exportedName%22%3A%22CreateForm%22%7D%2C%7B%22id%22%3A%22409d7fb6cd8fee1fd5907b2ee804c8d3445f0fcdc7%22%2C%22exportedName%22%3A%22GetFormContentByUrl%22%7D%2C%7B%22id%22%3A%2240afd36a2cfd265bbdc875cf686feac89c0c5a6ac4%22%2C%22exportedName%22%3A%22PublishForm%22%7D%2C%7B%22id%22%3A%2240b1b664e3d47e3feee32f07de9c8a149d834417f5%22%2C%22exportedName%22%3A%22GetFormWithSubmissions%22%7D%2C%7B%22id%22%3A%226041af0ba6026bb0d2dd4315fa1be14aa1bccdd531%22%2C%22exportedName%22%3A%22SubmitForm%22%7D%2C%7B%22id%22%3A%226048f8724892c0ec3b73f56f743b727705c361301a%22%2C%22exportedName%22%3A%22UpdateFormContent%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "Lit7YuSRSdmUrdvp8y7S6eY269dehvQZEmz6nzUMUp0="
+}
