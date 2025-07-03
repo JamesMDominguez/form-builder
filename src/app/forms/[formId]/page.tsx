@@ -1,26 +1,29 @@
-import { GetFormContentByUrl } from "@/actions/form";
-import { FormElementInstance } from "@/components/FormElements";
-import FormSubmitComponent from "@/components/FormSubmitComponent";
-import React from "react";
+// src/app/forms/[formId]/page.tsx
+import { PrismaClient } from '@/generated/prisma';
+import { notFound } from 'next/navigation';
 
-async function FormSubmitPage({
-  params,
-}: {
-  params: {
-    formUrl: string;
-  };
-}) {
-  const form = await GetFormContentByUrl(params.formUrl);
+const prisma = new PrismaClient();
+
+import FormRenderer from '@/components/FormRenderer';
+
+import { FormContent } from '@/lib/types';
+
+const FormPage = async ({ params }: any) => {
+  const form = await prisma.form.findUnique({
+    where: { id: params.formId },
+  });
 
   if (!form) {
-    throw new Error("form not found");
+    notFound();
   }
 
-  const formContent = JSON.parse(form.content) as FormElementInstance[];
+  const { elements, layout } = form.content as FormContent;
 
   return (
-    <FormSubmitComponent formUrl={params.formUrl} content={formContent} />
+    <div className="container mx-auto p-4">
+      <FormRenderer formId={params.formId} elements={elements} layout={layout} />
+    </div>
   );
-}
+};
 
-export default FormSubmitPage;
+export default FormPage;
