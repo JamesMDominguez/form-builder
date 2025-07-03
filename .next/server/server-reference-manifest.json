@@ -5,10 +5,15 @@
         "app/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Fapp%2Factions%2Fform.ts%22%2C%5B%7B%22id%22%3A%227f4564870ad546909e6657d17b57485650a4783a2e%22%2C%22exportedName%22%3A%22createForm%22%7D%2C%7B%22id%22%3A%227fe223293fc816c38639f5c81a6e6220c925f0b0d1%22%2C%22exportedName%22%3A%22saveForm%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
+        },
+        "app/builder/[formId]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Fapp%2Factions%2Fform.ts%22%2C%5B%7B%22id%22%3A%227f4564870ad546909e6657d17b57485650a4783a2e%22%2C%22exportedName%22%3A%22createForm%22%7D%2C%7B%22id%22%3A%227fe223293fc816c38639f5c81a6e6220c925f0b0d1%22%2C%22exportedName%22%3A%22saveForm%22%7D%5D%5D%2C%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Fapp%2Fforms%2F%5BformId%5D%2Factions.ts%22%2C%5B%7B%22id%22%3A%227f661a67a0e9d5936ba396684d3f8254e7a4bbfb21%22%2C%22exportedName%22%3A%22submitForm%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
         }
       },
       "layer": {
-        "app/page": "rsc"
+        "app/page": "rsc",
+        "app/builder/[formId]/page": "action-browser"
       }
     },
     "7fe223293fc816c38639f5c81a6e6220c925f0b0d1": {
@@ -16,10 +21,15 @@
         "app/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Fapp%2Factions%2Fform.ts%22%2C%5B%7B%22id%22%3A%227f4564870ad546909e6657d17b57485650a4783a2e%22%2C%22exportedName%22%3A%22createForm%22%7D%2C%7B%22id%22%3A%227fe223293fc816c38639f5c81a6e6220c925f0b0d1%22%2C%22exportedName%22%3A%22saveForm%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
+        },
+        "app/builder/[formId]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Fapp%2Factions%2Fform.ts%22%2C%5B%7B%22id%22%3A%227f4564870ad546909e6657d17b57485650a4783a2e%22%2C%22exportedName%22%3A%22createForm%22%7D%2C%7B%22id%22%3A%227fe223293fc816c38639f5c81a6e6220c925f0b0d1%22%2C%22exportedName%22%3A%22saveForm%22%7D%5D%5D%2C%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Fapp%2Fforms%2F%5BformId%5D%2Factions.ts%22%2C%5B%7B%22id%22%3A%227f661a67a0e9d5936ba396684d3f8254e7a4bbfb21%22%2C%22exportedName%22%3A%22submitForm%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
         }
       },
       "layer": {
-        "app/page": "rsc"
+        "app/page": "rsc",
+        "app/builder/[formId]/page": "action-browser"
       }
     },
     "7f1eedbb1e5fe1d2609914d899b4efd8a7ef8abecf": {
@@ -31,6 +41,17 @@
       },
       "layer": {
         "app/forms/[formId]/submissions/page": "rsc"
+      }
+    },
+    "7f661a67a0e9d5936ba396684d3f8254e7a4bbfb21": {
+      "workers": {
+        "app/builder/[formId]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Fapp%2Factions%2Fform.ts%22%2C%5B%7B%22id%22%3A%227f4564870ad546909e6657d17b57485650a4783a2e%22%2C%22exportedName%22%3A%22createForm%22%7D%2C%7B%22id%22%3A%227fe223293fc816c38639f5c81a6e6220c925f0b0d1%22%2C%22exportedName%22%3A%22saveForm%22%7D%5D%5D%2C%5B%22%2FUsers%2Fjamesdominguez%2FDesktop%2Fform-builder%2Fsrc%2Fapp%2Fforms%2F%5BformId%5D%2Factions.ts%22%2C%5B%7B%22id%22%3A%227f661a67a0e9d5936ba396684d3f8254e7a4bbfb21%22%2C%22exportedName%22%3A%22submitForm%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/builder/[formId]/page": "action-browser"
       }
     }
   },

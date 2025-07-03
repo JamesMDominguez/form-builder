@@ -1,5 +1,6 @@
 // src/app/forms/[formId]/submissions/page.tsx
 import { PrismaClient } from '@/generated/prisma';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import {
   Table,
@@ -35,7 +36,12 @@ const SubmissionsPage = async ({ params }: any) => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">Submissions for {form.name}</h1>
+      <div className="flex justify-between items-center mb-4">
+        <h1 className="text-2xl font-bold">Submissions for {form.name}</h1>
+        <Link href="/">
+          <Button variant="outline">Back to Home</Button>
+        </Link>
+      </div>
       <Table>
         <TableHeader>
           <TableRow>

@@ -17,7 +17,7 @@ const FormPage = async ({ params }: any) => {
     notFound();
   }
 
-  const { elements, layout } = form.content as FormContent;
+  const { elements, layout } = form.content as unknown as FormContent;
 
   return (
     <div className="container mx-auto p-4">

@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"components/ClientBuilderWrapper.tsx -> ./Builder\":{\"id\":\"components/ClientBuilderWrapper.tsx -> ./Builder\",\"files\":[\"static/chunks/_app-pages-browser_src_components_Builder_tsx.js\"]}}"
