@@ -1,13 +1,22 @@
 // src/app/builder/[formId]/page.tsx
 import { PrismaClient } from '@/generated/prisma';
 import { notFound } from 'next/navigation';
-import { type Metadata } from 'next';
-import { FormContent } from '@/lib/types';
+
+import { BuilderProvider } from '@/lib/BuilderContext';
 import ClientBuilderWrapper from '@/components/ClientBuilderWrapper';
+import { FormContent, FormElement } from '@/lib/types';
+import { Layout } from 'react-grid-layout';
 
 const prisma = new PrismaClient();
 
-const BuilderPage = async ({ params }: { params: { formId: string } }) => {
+interface BuilderPageProps {
+  params: {
+    formId: string;
+  };
+  searchParams?: { [key: string]: string | string[] | undefined };
+}
+
+const BuilderPage = async ({ params }: BuilderPageProps) => {
   const form = await prisma.form.findUnique({
     where: { id: params.formId },
   });
@@ -16,10 +25,14 @@ const BuilderPage = async ({ params }: { params: { formId: string } }) => {
     notFound();
   }
 
-  const { elements, layout } = form.content as any;
+  const { elements, layout } = form.content as unknown as FormContent;
   console.log('Fetched form content:', { elements, layout });
 
-  return <ClientBuilderWrapper formId={params.formId} initialElements={elements} initialLayout={layout} />;
+  return (
+    <BuilderProvider>
+        <ClientBuilderWrapper formId={params.formId} initialElements={elements as FormElement[]} initialLayout={layout as Layout[]} />
+    </BuilderProvider>
+  );
 };
 
 export default BuilderPage;

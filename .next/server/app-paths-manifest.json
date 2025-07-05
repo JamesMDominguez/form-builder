@@ -1,5 +1,4 @@
 {
-  "/forms/[formId]/submissions/page": "app/forms/[formId]/submissions/page.js",
-  "/page": "app/page.js",
-  "/builder/[formId]/page": "app/builder/[formId]/page.js"
+  "/builder/[formId]/page": "app/builder/[formId]/page.js",
+  "/page": "app/page.js"
 }

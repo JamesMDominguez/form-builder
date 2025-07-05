@@ -1,10 +1,15 @@
-// src/lib/types.ts
 import { Layout } from 'react-grid-layout';
+
+export interface StyleOptions {
+  backgroundColor: string;
+  textColor: string;
+  // Add other options here in the future, like buttonColor, etc.
+}
 
 export interface FormElement {
   id: string;
-  type: 'Title' | 'TextField' | 'Dropdown' | 'Checkbox' | 'Image';
-  properties: { [key: string]: string | number | string[] };
+  type: string;
+  properties: Record<string, string | number>;
 }
 
 export interface FormContent {

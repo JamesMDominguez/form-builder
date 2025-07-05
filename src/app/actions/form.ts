@@ -3,14 +3,14 @@
 
 import { prisma } from '@/lib/prisma';
 import { revalidatePath } from 'next/cache';
-import { FormContent } from '@/lib/types';
+import { FormContent, StyleOptions } from '@/lib/types';
 
 
 
-export const saveForm = async (formId: string, content: FormContent) => {
+export const saveForm = async (formId: string, content: FormContent, styleOptions: StyleOptions) => {
   await prisma.form.update({
     where: { id: formId },
-    data: { content: content },
+    data: { content: content, styleOptions: styleOptions },
   });
   revalidatePath(`/forms/${formId}`);
 };
@@ -23,6 +23,7 @@ export const createForm = async (formData: FormData) => {
     data: {
       name,
       description,
+      userId: 'user_placeholder_id', // Replace with actual user ID
       content: {
         elements: [],
         layout: [],
@@ -30,5 +31,25 @@ export const createForm = async (formData: FormData) => {
     },
   });
 
+  revalidatePath('/');
+};
+
+export const updateForm = async (
+  formId: string,
+  name: string,
+  description: string,
+) => {
+  await prisma.form.update({
+    where: { id: formId },
+    data: { name, description },
+  });
+  revalidatePath('/');
+  revalidatePath(`/builder/${formId}`);
+};
+
+export const deleteForm = async (formId: string) => {
+  await prisma.form.delete({
+    where: { id: formId },
+  });
   revalidatePath('/');
 };
